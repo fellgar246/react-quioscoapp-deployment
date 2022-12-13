@@ -8,12 +8,14 @@ const Sidebar = () => {
 
   return (
     <>
-        <Image
-            width={150}
-            height={70}
-            src="/assets/img/logo.svg"
-            alt="imagen logotipo"
-        />
+        <div className="flex items-center justify-center">
+          <Image
+              width={150}
+              height={70}
+              src="/assets/img/logo.svg"
+              alt="imagen logotipo"
+          />
+        </div>
        
 
         <nav className="mt-10">
